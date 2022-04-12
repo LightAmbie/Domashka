@@ -4,7 +4,7 @@
 int main()
 {
     Student s;
-    cout << 1;
+    cout << 23;
     cin >> s;
     cout << s;
 }
