@@ -27,7 +27,7 @@ ostream& operator<<(ostream& out, Student& s)
 	out << "Student" << endl;
 	out << "Name: " << s.firstName << " " << s.lastName << endl;
 	out << "Birth date: " << s.birthDate << endl;
-	out << "Group: " << s.group;
+	out << "Group: " << s.group << endl;
 
 	return out;
 }
