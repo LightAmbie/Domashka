@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
 	double a = 4.8, b = -7.9, m, n;
-	m = 0;
-	n = 0;
+	m = 1;
+	n = 1;
 
 	
 	if (a>=b)
