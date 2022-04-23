@@ -19,7 +19,7 @@ void fill(int** arr, int n, int m) {
 	{
 		for (int j = 0; j < m; j++)
 		{
-			arr[i][j] = rand() % 41;
+			arr[i][j] = rand() % 41 + 10;
 		}
 	}
 }
