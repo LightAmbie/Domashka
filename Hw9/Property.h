@@ -8,7 +8,7 @@ class Property
 {
 public:
 
-	double worth{0};
+	double worth;
 
 	Property(double worth) : worth(worth) {};
 
