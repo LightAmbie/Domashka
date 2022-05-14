@@ -5,12 +5,14 @@
 using namespace std;
 
 class Complex {
+private:
+	double re, im;
 
 public:
 
-	double re, im;
+	Complex(const Complex &obj){}
 
-	Complex(double re, double im) : re(re), im(im) {};
+	Complex(double re = 0, double im= 0) : re(re), im(im) {};
 
 	~Complex() {};
 

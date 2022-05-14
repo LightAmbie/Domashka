@@ -5,8 +5,12 @@
 using namespace std;
 
 class Vector {
-public:
+private:
 	double x, y, z;
+
+public:
+
+	Vector(const Vector& obj){}
 
 	Vector(double x, double y, double z) : x(x), y(y), z(z) {};
 

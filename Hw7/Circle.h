@@ -5,10 +5,12 @@
 using namespace std;
 
 class Circle {
-public:
+private:
 	double r;
+public:
+	Circle(const Circle &obj){}
 
-	Circle(double r) : r(r) {};
+	Circle(double r = 0) : r(r) {};
 
 	~Circle() {};
 

@@ -2,7 +2,7 @@
 #define CAR_H_
 #include "Property.h"
 
-class Car : public Property
+class Car : virtual public Property
 {
 public:
 

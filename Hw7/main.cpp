@@ -2,8 +2,8 @@
 #include "Vector.h";
 
 int main() {
-	Complex c1 = { 1, -2 };
-	Complex c2 = { 2, 4 };
+	Complex c1 = Complex{ 1, -2 };
+	Complex c2 = Complex{ 2, -2 };
 	cout << c1 << endl;
 	cout << c2 << endl;
 	cout << c1 + c2 << endl;

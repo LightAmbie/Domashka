@@ -2,7 +2,7 @@
 #define COUNTRYHOUSE_H_
 #include "Property.h"
 
-class CountryHouse : public Property
+class CountryHouse : virtual public Property
 {
 public:
 

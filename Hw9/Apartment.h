@@ -2,7 +2,7 @@
 #define APARTMENT_H_
 #include "Property.h"
 
-class Apartment : public Property
+class Apartment : virtual public Property
 {
 public:
 

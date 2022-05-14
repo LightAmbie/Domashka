@@ -6,9 +6,11 @@ using namespace std;
 
 class Property
 {
-public:
+protected:
 
 	double worth;
+
+public:
 
 	Property(double worth) : worth(worth) {};
 

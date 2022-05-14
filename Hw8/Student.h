@@ -5,12 +5,13 @@ using namespace std;
 
 class Student
 {
-public:
+private:
 	string firstName;
 	string lastName;
 	string birthDate;
 	string group;
-
+public:
+	
 	Student();
 
 	Student(string firstName, string lastName, string birthDate, string group);
