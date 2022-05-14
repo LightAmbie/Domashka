@@ -4,7 +4,7 @@
 #include "Keyboard.h"
 class Pc : virtual public Screen, virtual public Keyboard
 {
-	void getPicture() override {};
+	void getPictures() override {};
 	bool spacebarIsPressed() override {};
 };
 #endif

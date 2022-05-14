@@ -3,7 +3,7 @@
 #include "Screen.h"
 class Phone : virtual public Screen
 {
-	void getPicture() override{};
+	void getPictures() override{};
 };
 #endif
 

@@ -3,7 +3,7 @@
 class Screen
 {
 public:
-	virtual void getPicture();
+	virtual void getPictures();
 };
 #endif
 
