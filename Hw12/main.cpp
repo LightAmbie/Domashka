@@ -36,27 +36,9 @@ int main()
 	cout << "Sorted double array: " << endl;
 	printArr(darr, dsize);
 }
-void selectionSort(int* arr, int size) {
-	for (int i = 0; i < size; i++)
-	{
-		int key = 0;
-		int mini = 100000;
-		for (int j = i; j < size; j++)
-		{
-			if (arr[j] < mini)
-			{
-				mini = arr[j];
-				key = j;
-			}
-		}
-		if (key != i)
-		{
-			swap(arr[i], arr[key]);
-		}
-	}
-}
 
-void selectionSort(double* arr, int size) {
+template <typename T>
+void selectionSort(T* arr, int size) {
 	for (int i = 0; i < size; i++)
 	{
 		int key = i;
@@ -96,3 +78,5 @@ void printArr(T* arr, int size) {
 	}
 	cout << endl;
 }
+
+
